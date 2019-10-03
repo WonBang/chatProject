@@ -8,8 +8,15 @@
 </head>
 <body>
 
-	<form>
-		
+	<form action="#" method="post" id="frm1" name="frm1">
+		<table>
+		<tr>
+			<th>이름</th>
+			<th>주민번호</th>
+			<th>전화번호</th>
+			<th>이메일</th>
+		</tr>
+		</table>
 	</form>
 
 </body>
