@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="mapper.member.memberSQL">
+
+
+	<!-- 게시판 추가하기 -->
+	<select id="getMemberInfo" resultType="chatProject.member.vo.MemberVo">
+		<![CDATA[
+    
+         SELECT 
+         	USER_ID,
+         	USER_NM,
+         	USER_PW,
+         	EMAIL,
+         	PHONE,
+         	REG_DATE,
+         	MOD_DATE,
+         	DEL_DATE
+         FROM TB_MEMBER
+     ]]> 
+	</select>
+
+</mapper>
+

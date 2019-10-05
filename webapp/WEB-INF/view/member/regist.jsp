@@ -5,6 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>회원가입</title>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
 </head>
 <body>
 
@@ -12,9 +13,27 @@
 		<table>
 		<tr>
 			<th>이름</th>
-			<th>주민번호</th>
-			<th>전화번호</th>
+			<td><input type="text" name="name" id="name" /></td>
+		</tr>
+		<tr>
+			<th>ID</th>
+			<td><input type="text" name="userId" id="userId" /></td>
+		</tr>
+		<tr>
+			<th>비밀번호</th>
+			<td><input type="text" name="userPw" id="userPw" /></td>
+		</tr>
+		<tr>
+			<th>비밀번호 확인</th>
+			<td><input type="text" name="chkUserPw" id="chkUserPw" /></td>
+		</tr>
+		<tr>
 			<th>이메일</th>
+			<td><input type="text" name="email" id="email" /></td>
+		</tr>
+		<tr>
+			<th>전화번호</th>
+			<td><input type="text" name="phone" id="phone" /></td>
 		</tr>
 		</table>
 	</form>

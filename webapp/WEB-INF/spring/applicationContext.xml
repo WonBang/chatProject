@@ -18,4 +18,5 @@
 	</bean>
 	
 	<bean class="chatProject.sample.web.HelloController" id="helloController"></bean>
+	<bean class="chatProject.member.web.MemberController" id="memberController"></bean>
 </beans>
